@@ -1,0 +1,89 @@
+body {
+  background: #111;
+  color: #eee;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  border-bottom: 2px solid #333;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+#postForm {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#ventInput {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: white;
+  resize: none;
+}
+
+button {
+  padding: 10px 15px;
+  background: #444;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #666;
+}
+
+.section-title {
+  padding: 10px 20px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+#ventList {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.vent {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #555;
+}
+
+.vent-number {
+  opacity: 0.6;
+  font-size: 0.9rem;
+}
+
+.comment-section {
+  margin-top: 10px;
+  padding-left: 10px;
+  border-left: 2px solid #333;
+}
+
+.comment {
+  background: #2a2a2a;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
